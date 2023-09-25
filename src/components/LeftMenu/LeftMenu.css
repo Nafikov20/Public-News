@@ -1,0 +1,14 @@
+.left-menu__svg {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.left-menu__svg:hover svg {
+    fill: #FF6B00;
+}
+
+.active-svg svg {
+    fill: #FF6B00;
+}
